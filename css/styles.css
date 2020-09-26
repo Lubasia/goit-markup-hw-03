@@ -193,8 +193,8 @@ ul {
   display: none;
 }
 .advantages-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .advantages-container {
   margin-left: auto;
@@ -342,7 +342,7 @@ ul {
 }
 /* Кнопки навигации портфолио*/
 .filter {
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
 }
 .button-list {
@@ -378,7 +378,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .gallery {
   background: #ffffff;
