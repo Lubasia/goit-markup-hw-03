@@ -75,6 +75,8 @@ ul {
 
 .img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* Логотип */
 .nav-container {
@@ -152,10 +154,15 @@ ul {
   background-color: var(--title-dark-theme-color);
   text-align: center;
 }
+.hero-container {
+  text-align: center;
+  width: 696px;
+}
 .main-title {
   text-transform: uppercase;
-  text-align: center;
   font-family: var(--main-font);
+  padding-bottom: 30px;
+
   padding-top: 200px;
   font-style: normal;
   font-weight: 900;
@@ -163,7 +170,6 @@ ul {
   line-height: 1.364;
 
   letter-spacing: 0.06em;
-  margin-bottom: 40px;
 }
 
 .link-button {
@@ -177,8 +183,6 @@ ul {
   font-size: 16px;
   line-height: 1.875;
   font-weight: 700;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 .link-button:hover,
@@ -217,6 +221,9 @@ ul {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
+}
+.advantages {
+  width: 270px;
 }
 .text-advantages {
   color: var(--secondary-font-color);
